@@ -20,15 +20,15 @@ ul {
 }
 
 li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .icon {
   width: 25px;
 }
 
-.align-right{
-    margin-left: auto;
+.align-right {
+  margin-left: auto;
 }
 
 .logo {
@@ -36,7 +36,6 @@ li {
   font-weight: 700;
   padding: 0 10px 0 0;
 }
-
 
 h1 {
   font-size: 40px;
@@ -46,20 +45,35 @@ h1 {
 
 .caption {
   margin: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .item-img {
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
-.img-container {
-    position: relative;
+.item {
+  position: relative;
 }
 
 .img-banner {
-position: absolute;
-background-color: #cd6858;
-color: whitesmoke;
-padding: 10px;
-top: 0;
+  position: absolute;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px;
+  top: 0;
+  left: 0;
+}
+
+button {
+  border: none;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px 15px;
+  font-weight: 700;
+  cursor: pointer;
+  align-self: center;
 }
